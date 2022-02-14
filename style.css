@@ -1,0 +1,176 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  /* background-image: url('pictures/background.jpeg'); */
+  background: linear-gradient(white, green);
+}
+
+canvas {
+  display: block;
+}
+
+
+.imageHolder{
+  height:500Px;
+  max-width: 200px;
+  
+
+}
+
+#title{
+  position: fixed;
+  z-index: 10;
+  margin-top: 30px;
+  margin-left: 625px;
+  font-size: 80px;
+  text-align: center;
+  box-shadow: 10px 10px;
+  width: 750px;
+  background-color: rgba(255, 255, 255, 0.411);
+  font-family: 'Quintessential', cursive;
+  
+}
+
+#explainer{
+  position: fixed;
+  z-index: 10;
+  margin-top: 175px;
+  margin-left: 625px;
+  font-size: 80px;
+  text-align: left;
+  box-shadow: 10px 10px;
+  width: 750px;
+  height: 550px;
+  background-color: rgba(255, 255, 255, 0.411);
+}
+
+#container{
+  align-items: center;
+  text-align: center;
+  overflow-x: hidden;
+  width: 550px;
+  overflow-y: hidden;
+  border-width: 2px;
+}
+
+#inside{
+  padding:25px;
+  margin-top: 50px;
+  margin-left: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  float: left;
+  width: 40%;
+  height:400px;
+}
+
+#inside2{
+  padding:25px;
+  margin-top: 50px;
+  margin-left: 400px;
+  color: rgb(0, 0, 0);
+  font-size: 12px;
+  height:400px;
+  padding-left:50px;
+}
+
+#sarcasm{
+  font-style: italic;
+  color: red;
+}
+
+
+.explainerish{
+  height: 250px;
+  width: 300px;
+  border-width: 10px;
+  border-radius: 10px;
+  border: solid rgb(255, 255, 255);
+  margin-top: 100px;
+  margin-left: 100px;
+  padding: 20px;
+  color: white;
+  z-index: 1;
+  position: absolute;
+}
+
+.explainerish:hover{
+  background-image: url(pictures/background.jpeg);
+  color: yellow;
+  -webkit-text-stroke-width: 0.2px;
+  -webkit-text-stroke-color: black;
+}
+
+#Two{
+  margin-top: 600px;
+}
+
+#Two:hover{
+  background-image: url(pictures/9.jpg);
+}
+
+
+#Three{
+  margin-top: 1100px;
+}
+
+#Three:hover{
+  background-image: url(pictures/8.jpg);
+}
+
+#Four{
+  margin-top: 1600px;
+}
+
+#Four:hover {
+  background-image: url(pictures/7.jpg);
+}
+
+#Five{
+  margin-top: 2100px;
+  
+}
+
+#Five:hover{
+  background-image: url(pictures/6.jpg);
+}
+
+#Six{
+  margin-top: 2600px;
+}
+
+#Six:hover{
+  background-image: url(pictures/5.jpg);
+}
+
+#Seven{
+  margin-top: 3100px;
+}
+
+#Seven:hover{
+  background-image: url(pictures/4.jpg);
+}
+
+#Eight{
+  margin-top: 3600px;
+}
+
+#Eight:hover{
+  background-image: url(pictures/3.jpg);
+}
+
+#Nine{
+  margin-top: 4100px;
+}
+
+#Nine:hover{
+  background-image: url(pictures/2.jpg);
+}
+
+#submit{
+  margin-left: 10px;
+  width: 200px;
+  height: 60px;
+  font-size: 24px;
+  box-shadow: 10px, 10px;
+}
